@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-main-bg: var(--main-bg);
+  --color-main-bg-90: var(--main-bg-90);
+  --color-main-text: var(--main-text);
+  --color-gray: var(--gray);
+  --color-details: var(--details);
+  --color-main-title: var(--main-title);
+  --color-subtitle: var(--subtitle);
+  --color-btn: var(--btn);
+  --color-btn-text: var(--btn-text);
+  --color-brackets: var(--brackets);
+  --color-hover: var(--hover);
+  --color-labels: var(--labels);
+  --color-shadow: var(--shadow);
+  --color-card-code: var(--card-code);
+  --color-hover-card: var(--hover-card);
+  --color-modal-bg: var(--modal-bg);
+  --color-section-light: var(--section-light);
+  --color-section-light-90: var(--section-light-90);
+}
+
+:root {
+  --main-bg: #FAFAFA;
+  --main-bg-90: #EFEFEF;
+  --main-text: #333333;
+  --gray: #707070;
+  --details: #5784BA;
+  --main-title: #4A74A5;
+  --subtitle: #119897;
+  --btn: #4A74A5;
+  --btn-text: #FFFFFF;
+  --brackets: #666666;
+  --hover: #3A5C8A;
+  --labels: rgba(0, 0, 0, 0.6);
+  --shadow: rgba(0, 0, 0, 0.1);
+  --card-code: #F6F2E6;
+  --hover-card: #ECE6D4;
+  --modal-bg: rgba(255, 255, 255, 0.4);
+  --section-light: #F9F2E8;
+  --section-light-90: #F6F2E6;
+}
+
+.dark {
+  --main-bg: #181C21;
+  --main-bg-90: #12171B;
+  --main-text: #D6D6D6;
+  --gray: #B0B0B0;
+  --main-title: #8DABD4;
+  --subtitle: #FDE047;
+  --btn: #7189A1;
+  --btn-text: #EFEFEF;
+  --brackets: #E8E8E8;
+  --hover: #637B91;
+  --labels: rgba(255, 255, 255, 0.7);
+  --shadow: rgba(240, 240, 240, 0.1);
+  --card-code: #4E565D;
+  --hover-card: #3D454B;
+  --modal-bg: rgba(0, 0, 0, 0.7);
+  --section-light: #2B3A4E;
+  --section-light-90: #1F2A3B;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
