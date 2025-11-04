@@ -156,8 +156,8 @@ Si esta herramienta te ha sido útil, considera:
 
 ## 📧 Contacto
 
-- GitHub: [@tu-usuario](https://github.com/ivargasm)
-- Email: tu-email@ejemplo.com
+- GitHub: [ivargasm](https://github.com/ivargasm)
+- Email: contacto@ivargasm.com
 
 ---
 
